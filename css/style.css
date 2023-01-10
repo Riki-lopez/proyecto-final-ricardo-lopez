@@ -1,0 +1,235 @@
+*{
+    margin: 0;
+padding: 0;
+box-sizing: border-box
+;}
+.titulo { color:black;
+    text-align: center;
+    background-color: rgb(60, 193, 234);
+    font-size: 50px;
+}
+.navbar{background-color: rgb(241, 237, 237);
+    color: white;
+    text-decoration: none;
+}
+
+.logo1{
+    height: 50px;
+    position: absolute;
+    margin-left:  20px;
+}
+.navbar li{display: flex;
+    flex-direction: column;
+    text-align: center;
+    text-decoration:overline;
+    }
+
+.parrafo {font-size: 25px;
+text-align: center;
+width: 100%;
+height: 50px;
+margin-top: 50px;}
+
+.banner{
+    background-image: url(../asset/img/fondo.webp);
+    background-repeat: no-repeat;
+    background-position: cover;
+    }
+
+.productos1{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    }
+
+    .productos2{
+        display: flex;
+    text-align: center;
+    justify-content: center;
+    gap: 30px;
+    }
+.parrafo{
+    font-size: 30px;
+}
+.logo{
+    height: 40px;
+    margin-top: 20px;
+}
+
+/*empieza la tienda**/
+
+.botines{ 
+    display: flex;
+    flex-direction: row;
+justify-content: space-around;
+flex-wrap: wrap;
+text-align: center;}
+
+
+.item2{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 50px;
+    margin-left: 30px;
+    gap: 50px;
+}
+
+.balones{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: 30px;
+    gap: 50px;
+}
+
+.camperas{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+.remeras{
+    display: flex;
+    flex-direction: row;
+    justify-content:space-around ;
+    flex-wrap: wrap;
+    gap: 50px;
+}
+/*empieza las novedades**/
+.promos{ 
+    display: flex;
+    justify-content: center;
+    gap: 200px;
+    
+}
+
+.promo{
+    width: 400px;
+    height: 200px;
+    border: solid 2px rgb(27, 19, 77);
+    background-color: rgba(60, 193, 234, 0.347);
+overflow: auto;}
+
+
+
+.texto{ 
+    font-size: 30px;
+}
+
+.texto1{
+    position: absolute;
+    left: 40px;
+    top: 100px;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif}
+
+    h2{
+        text-align: center;
+        margin-top: 20px;
+    }
+    .lanzamientos{ 
+        display: flex;
+        justify-content: center;
+        gap: 150px;
+        margin-bottom: 20px;
+    }
+
+/*empieza contactos**/
+
+.contactanos{
+margin-left: 50px;
+}
+
+
+.info-form h2{
+    margin-bottom: 15px;
+    font-size: 35px;
+}
+.info-form p{
+    font-size: 17px;
+    line-height: 1.6;
+    margin-bottom: 30px;
+}
+.logo{
+    font-size: 17px;
+    display: inline-block;
+    text-decoration: none;
+    margin-bottom: 15px;
+    }
+
+    .campo{
+        width: 100%;
+        padding: 15px 10px;
+        font-size: 15px;
+        border: 1px solid;
+        margin-bottom: 20px;
+    }
+.formulario{
+    width: 50%; 
+position: 200px 100px;
+margin-top: 50px;
+margin-bottom: 50px;}
+
+/* empieza nosotros**/
+.cajas{
+display: flex;
+justify-content: center;
+gap: 70px;
+}
+
+
+.caja{
+        
+        width: 300px;
+        height: 300px;
+        background-color: rgba(60, 193, 234, 0.347);
+        border: solid 2px black;
+        margin-bottom: 80px;
+        }
+
+
+/* empieza el footer**/
+.pie{
+    background-size: auto;
+    background-color: rgb(60, 193, 234);
+    text-align: center;
+    height: 50px;
+    gap: 20px;}
+
+/*empieza el responsive**/
+
+/*responsive inicio*/
+@media (max-width:760px){
+    .productos1{display: flex;
+    flex-direction: column;}
+    .productos2{display: flex;
+    flex-direction: column;}}
+
+    @media (max-width:320px){
+        .produxtos1{display: flex;
+        flex-direction: column;}
+    }
+    /*responsive nosotros**/
+    @media (max-width:760px){
+        .cajas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    @media (max-width:320px){
+        .caja{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+        margin: 50px;}
+        
+            .navbar1{
+                width: 100%;
+            }
+    }
