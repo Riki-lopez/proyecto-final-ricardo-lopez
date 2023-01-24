@@ -1,0 +1,30 @@
+@media (max-width:760px){
+    .productos1{display: flex;
+    flex-direction: column;}
+    .productos2{display: flex;
+    flex-direction: column;}}
+
+    @media (max-width:320px){
+        .produxtos1{display: flex;
+        flex-direction: column;}
+    }
+    /*responsive nosotros**/
+    @media (max-width:760px){
+        .cajas{
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+    }
+    @media (max-width:320px){
+        .caja{
+            width: auto;
+            display: flex;
+            flex-direction: column;
+            padding: 50px;
+        margin: 50px;}
+        
+            .navbar1{
+                width: 100%;
+            }
+    }
