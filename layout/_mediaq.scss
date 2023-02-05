@@ -1,3 +1,5 @@
+/*responsive home**/
+
 @media (max-width:760px){
     .productos1{display: flex;
     flex-direction: column;}
@@ -28,3 +30,80 @@
                 width: 100%;
             }
     }
+    /*responsive tienda**/
+    @media ( max-width: 760px){
+        .botines{display: flex;
+        flex-direction: column;
+    align-items: center;}
+
+    .item2{ display: flex;
+    flex-direction: column;
+align-items: center;}
+
+.balones{ display: flex;
+flex-direction: column;
+align-items: center;}
+
+.camperas{ display: flex;
+flex-direction: column;
+align-items: center;}
+
+.remeras{ display: flex;
+flex-direction: column;
+align-items: center;}
+    }
+
+    @media( max-width:320px){
+        .botines{display: flex;
+            flex-direction: column;
+        align-items: center;}
+    
+        .item2{ display: flex;
+        flex-direction: column;
+    align-items: center;}
+    
+    .balones{ display: flex;
+    flex-direction: column;
+    align-items: center;}
+    
+    .camperas{ display: flex;
+    flex-direction: column;
+    align-items: center;}
+    
+    .remeras{ display: flex;
+    flex-direction: column;
+    align-items: center;}
+        }   
+    /*responsive contacto**/
+    @media( max-width: 760px){
+    .formulario{
+        margin: auto;
+        align-items: center;
+    }
+    }
+    @media( max-width:320px){
+        .formulario{
+            margin-top: auto;
+        }
+    }
+    /*responsive novedades**/
+    @media(
+        max-width:760px){
+            .promos{
+                display: flex;
+            }
+        }
+        @media (max-width:320px){
+            .promos{ display: flex;
+            flex-direction: column;
+        }
+        .lanzamientos{
+            display: flex;
+            flex-direction: column;
+            width: auto;
+        }
+        .promo{
+            display: flex;
+            flex-direction: column;
+        }
+        }
